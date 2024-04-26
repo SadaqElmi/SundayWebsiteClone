@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 20px;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+nav {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 20px;
+}
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+li:hover {
+  color: #fec059;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.button a {
+  text-decoration: none;
+}
+.button a:nth-child(1) {
+  color: black;
+}
+.button a:nth-child(2) {
+  background-color: #fec059;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* header here End */
+/* mune  */
+
+.welcome {
+  height: 250px;
+  background-color: #3ebc73;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome h1 {
+  margin-top: 40px;
+  font-size: 70px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.welcome button {
+  background-color: #fec059;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #3ebc73;
+  font-size: 15px;
+}
+.welcome button:hover {
+  cursor: pointer;
+}
+/* our-misson  */
+
+.our-misson {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 200px;
+  padding-bottom: 50px;
+}
+
+.our-mission-text {
+  margin-top: 50px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.our-mission-text h3 {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #8bb0a5;
+}
+.our-mission-text h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.our-mission-text p {
+  width: 500px;
+}
+.our-mission-btn button {
+  background-color: #3ebc73;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  color: white;
+}
+
+/* culture */
+
+.culture {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 50px;
+}
+
+.culture-image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 300px;
+  object-fit: cover;
+}
+
+.culture-text {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.culture-text h1 {
+  font-size: 25px;
+}
+
+.culture-text h2 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #8bb0a5;
+}
+
+/* .sustainability  */
+.sustainability img {
+  width: 350px;
+  height: 350px;
+  border-radius: 300px;
+  object-fit: cover;
+}
+
+.sustainability {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 50px;
+}
+.sustainability-text {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sustainability-text h1 {
+  font-size: 20px;
+}
+
+.sustainability-text h2 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #8bb0a5;
+}
+
+/* who-we-are */
+.who-we-are {
+  background-color: #f7f4ef;
+  padding-bottom: 50px;
+}
+
+.who-we-are-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.who-we-are-text h1 {
+  font-size: 40px;
+  margin: 25px 0px;
+  color: #215f42;
+}
+
+.who-we-are-text p {
+  width: 500px;
+  font-size: 16px;
+  color: #959692;
+}
+
+.our-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-value h1 {
+  color: #215f42;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.our-value-text-column {
+  width: 150px;
+}
+.our-value-text-column h1 {
+  color: #215f42;
+  font-size: 20px;
+}
+
+.our-value-text-column p {
+  color: #959692;
+  font-weight: 300;
+}
+
+.our-value-text-line {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* perks */
+.perks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.perks h1 {
+  color: #215f42;
+  margin: 20px 0;
+}
+.perks p {
+  font-size: 20px;
+  width: 600px;
+  margin: 20px 0;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.img-one {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+.img-one img {
+  width: 50px;
+  height: 50px;
+}
+/* .img-one .o {
+  background-color: #e8ab99;
+} */
+
+/* images-line */
+
+.images-line {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  justify-content: center;
+  gap: 10px;
+}
+.images-line img {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+}
+.images-line i {
+  cursor: pointer;
+}
+
+.images-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.images-two img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* jionOurTeam */
+
+.jionOurTeam {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.jionOurTeam h1 {
+  color: #033d4e;
+}
+.join-text {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  gap: 1px;
+}
+.join-text h2 {
+  color: #46a67c;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.join-text h3 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #7b7b7a;
+}
+
+/* footer  */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #f7f4ef;
+  padding: 50px 50px;
+}
+
+.left img,
+.middle img,
+.right img {
+  width: 80px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.left {
+  display: flex;
+  width: 300px;
+  gap: 10px;
+}
+.left p {
+  font-size: 12px;
+}
+
+.left a {
+  text-decoration: none;
+  color: #3ebc73;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.icons i {
+  font-size: 30px;
+  color: #46a67c;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+}
+
+.right-left,
+.right-middle,
+.right-right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.right-left a,
+.right-middle a,
+.right-right a {
+  text-decoration: none;
+  color: #46a67c;
+  font-size: 12px;
+}
+
+span {
+  color: #fec059;
+}
